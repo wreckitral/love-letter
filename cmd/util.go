@@ -5,17 +5,17 @@ import (
 )
 
 func GetShortLetter() (string, error) {
-    n := rand.Intn(2)
+	n := rand.Intn(2)
 
-    l := ShortLetters[n]
+	l := ShortLetters[n]
 
-    return l, nil
+	return l, nil
 }
 
 func GetLongLetter() (string, error) {
-    n := rand.Intn(2)
+	n := rand.Intn(2)
 
-    l := LongLetters[n]
+	l := LongLetters[n]
 
-    return l, nil
+	return l, nil
 }
